@@ -15,7 +15,9 @@ public class Player : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        // northeast movement = (0.71, 0.71) -- northwest movement = (-0.71, 0.71) -- southeast movement = (0.71, -0.71) -- southwest movement = (-0.71, -0.71)
         Vector2 val = context.ReadValue<Vector2>();
+        Debug.Log(val);
 
         if (val.x == 1.0)
         {
