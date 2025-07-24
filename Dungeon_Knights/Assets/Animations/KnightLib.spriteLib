@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Walk_North
+    m_Hash: 465477554
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: walk_north_0
+      m_Hash: 1005328637
+      m_Sprite: {fileID: 5576594682004918821, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5576594682004918821, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+    - m_Name: walk_north_1
+      m_Hash: 216737899
+      m_Sprite: {fileID: 8789306349209824359, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8789306349209824359, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+    - m_Name: walk_north_2
+      m_Hash: 367163857
+      m_Sprite: {fileID: -3840286116191649653, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3840286116191649653, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+    - m_Name: walk_north_3
+      m_Hash: 585451847
+      m_Sprite: {fileID: 5042582899683434290, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5042582899683434290, guid: e9c1818c81ab8c0409368f3d52661523, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk_East
+    m_Hash: 246976302
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: walk_east_0
+      m_Hash: 756264972
+      m_Sprite: {fileID: -8750956470922958622, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8750956470922958622, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_1
+      m_Hash: 437551258
+      m_Sprite: {fileID: 3574550405601980060, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3574550405601980060, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_2
+      m_Hash: 52285728
+      m_Sprite: {fileID: 8523407921611794642, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8523407921611794642, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_3
+      m_Hash: 874176950
+      m_Sprite: {fileID: 6853260330586917028, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6853260330586917028, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_4
+      m_Hash: 712930325
+      m_Sprite: {fileID: 3422767010557631369, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3422767010557631369, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_5
+      m_Hash: 494486659
+      m_Sprite: {fileID: 4819076991571613945, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4819076991571613945, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_6
+      m_Hash: 74454329
+      m_Sprite: {fileID: -9145655095545589755, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9145655095545589755, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    - m_Name: walk_east_7
+      m_Hash: 863446447
+      m_Sprite: {fileID: -8131858430734666172, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8131858430734666172, guid: aa296eb68e6b59544a235d251a1045cf, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 8
+  - m_Name: Idle_North
+    m_Hash: 946934011
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: idle_north_0
+      m_Hash: 659575247
+      m_Sprite: {fileID: 8212634956480493843, guid: 27b4232cfac09e64685ca536459383a6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8212634956480493843, guid: 27b4232cfac09e64685ca536459383a6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle_East
+    m_Hash: 407927257
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: idle_east_0
+      m_Hash: 573605559
+      m_Sprite: {fileID: 2961918518843247284, guid: 701bfc32d1fc88c4eb55d87b89f206ea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2961918518843247284, guid: 701bfc32d1fc88c4eb55d87b89f206ea, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638889059005598176
+  m_Version: 1
