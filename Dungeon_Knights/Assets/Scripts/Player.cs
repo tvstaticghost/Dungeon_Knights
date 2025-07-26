@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,7 +10,10 @@ public class Player : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
     [SerializeField] Animator animator;
     [SerializeField] float movementSpeed;
+    [SerializeField] AnimationClip attackClip;
     private bool walking = false;
+    private bool attacking = false;
+    private bool canAttack = true;
 
     enum Direction { UP, DOWN, LEFT, RIGHT}
     private Direction currentDirection = Direction.RIGHT;
@@ -17,7 +22,6 @@ public class Player : MonoBehaviour
     {
         // northeast movement = (0.71, 0.71) -- northwest movement = (-0.71, 0.71) -- southeast movement = (0.71, -0.71) -- southwest movement = (-0.71, -0.71)
         Vector2 val = context.ReadValue<Vector2>();
-        Debug.Log(val);
 
         if (val.x == 1.0)
         {
@@ -43,7 +47,19 @@ public class Player : MonoBehaviour
             rb.linearVelocity = new Vector2(0f, 0f) * movementSpeed;
         }
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public void Attack(InputAction.CallbackContext context)
+    {
+        if (context.started && canAttack && !attacking)
+        {
+            canAttack = false;
+            attacking = true;
+
+            PlayAttackAnimation();
+            StartCoroutine(AttackTimer(attackClip.length));
+        }
+    }
+
     void Start()
     {
         animator.Play("Paladin_Idle_Right");
@@ -84,6 +100,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (attacking)
+        {
+            return;
+        }
+
         if (walking)
         {
             PlayWalkAnimation();
@@ -92,5 +113,28 @@ public class Player : MonoBehaviour
         {
             PlayIdleAnimation();
         }
+    }
+
+    private void PlayAttackAnimation()
+    {
+        //Fill this function out as I add directional attack animations
+        switch (currentDirection)
+        {
+            case Direction.LEFT:
+                animator.Play("Attack_West");
+                break;
+            case Direction.RIGHT:
+                animator.Play("Attack_East");
+                break;
+        }
+
+        StartCoroutine(AttackTimer(attackClip.length));
+    }
+
+    private IEnumerator AttackTimer(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        attacking = false;
+        canAttack = true;
     }
 }
