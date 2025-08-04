@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: burning
+    m_Hash: 770666274
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: torch 1_0
+      m_Hash: 3794356
+      m_Sprite: {fileID: 8229444937443853883, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8229444937443853883, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_1
+      m_Hash: 926864674
+      m_Sprite: {fileID: 8754314872028987645, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8754314872028987645, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_2
+      m_Hash: 775390360
+      m_Sprite: {fileID: 5651398220963741781, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5651398220963741781, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_3
+      m_Hash: 422622222
+      m_Sprite: {fileID: -3989668465954790264, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3989668465954790264, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_4
+      m_Hash: 122954157
+      m_Sprite: {fileID: 1081193452690482479, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1081193452690482479, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_5
+      m_Hash: 810750267
+      m_Sprite: {fileID: -2751576452574590248, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2751576452574590248, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_6
+      m_Hash: 693780609
+      m_Sprite: {fileID: 6329720280741748174, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6329720280741748174, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_7
+      m_Hash: 509440023
+      m_Sprite: {fileID: 7587013521289997113, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7587013521289997113, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_8
+      m_Hash: 249720198
+      m_Sprite: {fileID: -7366759735117013839, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7366759735117013839, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    - m_Name: torch 1_9
+      m_Hash: 971332880
+      m_Sprite: {fileID: 6836623255777385949, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6836623255777385949, guid: 270ecc48453564baaaed9fd4cbb029b6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638895092317273720
+  m_Version: 1

@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: 8a7d4717a0a9de9419c8437789989770
+guid: b8ade684b3a8546f0992db4fb87695dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8553596595128423742
-    second: Torch_0
+      213: -6306405852585241042
+    second: knight_attack_right_0
   - first:
-      213: 330400763883709057
-    second: Torch_1
+      213: -2463365341317934655
+    second: knight_attack_right_1
   - first:
-      213: 6950709768184568528
-    second: Torch_2
+      213: 8843755137971233844
+    second: knight_attack_right_2
   - first:
-      213: 837017221450738011
-    second: Torch_3
+      213: -8451745791826609099
+    second: knight_attack_right_3
   - first:
-      213: 9103131428984308761
-    second: Torch_4
+      213: -7010060384778525911
+    second: knight_attack_right_4
   - first:
-      213: -6545210212983845557
-    second: Torch_5
+      213: 8817194364517077656
+    second: knight_attack_right_5
   - first:
-      213: 2483307524810053647
-    second: Torch_6
+      213: 7774900649196160909
+    second: knight_attack_right_6
   - first:
-      213: 2428121689872686496
-    second: Torch_7
+      213: 565517819077744176
+    second: knight_attack_right_7
+  - first:
+      213: -901880866779092480
+    second: knight_attack_right_8
+  - first:
+      213: 4637354092684462798
+    second: knight_attack_right_9
+  - first:
+      213: -4549148836072975486
+    second: knight_attack_right_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,17 +126,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Torch_0
+      name: knight_attack_right_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 18
-        width: 7
-        height: 13
+        x: 0
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ca216337358b4980800000000000000
-      internalID: -8553596595128423742
+      spriteID: e2656333a452b78a0800000000000000
+      internalID: -6306405852585241042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_1
+      name: knight_attack_right_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 18
-        width: 7
-        height: 13
+        x: 26
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1826ec48eb1d59400800000000000000
-      internalID: 330400763883709057
+      spriteID: 1c15cb6064e50ddd0800000000000000
+      internalID: -2463365341317934655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_2
+      name: knight_attack_right_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 18
-        width: 7
-        height: 13
+        x: 52
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0da9a7d25b1e57060800000000000000
-      internalID: 6950709768184568528
+      spriteID: 434af4711745bba70800000000000000
+      internalID: 8843755137971233844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_3
+      name: knight_attack_right_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 18
-        width: 7
-        height: 13
+        x: 78
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b59a47b6abead9b00800000000000000
-      internalID: 837017221450738011
+      spriteID: 53cb54a4bfd55ba80800000000000000
+      internalID: -8451745791826609099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_4
+      name: knight_attack_right_4
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1
-        width: 7
-        height: 14
+        x: 104
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 914cd40edc1d45e70800000000000000
-      internalID: 9103131428984308761
+      spriteID: 923ec3f883347be90800000000000000
+      internalID: -7010060384778525911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_5
+      name: knight_attack_right_5
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 7
-        height: 13
+        x: 130
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4dc6d24dfdba25a0800000000000000
-      internalID: -6545210212983845557
+      spriteID: 892dd9c1f87fc5a70800000000000000
+      internalID: 8817194364517077656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_6
+      name: knight_attack_right_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1
-        width: 7
-        height: 14
+        x: 156
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f089b54690b767220800000000000000
-      internalID: 2483307524810053647
+      spriteID: d878a4f72fef5eb60800000000000000
+      internalID: 7774900649196160909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torch_7
+      name: knight_attack_right_7
       rect:
         serializedVersion: 2
-        x: 53
-        y: 1
-        width: 7
-        height: 13
+        x: 182
+        y: 0
+        width: 26
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +312,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ad584cefcb62b120800000000000000
-      internalID: 2428121689872686496
+      spriteID: 0365840d57f19d700800000000000000
+      internalID: 565517819077744176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight_attack_right_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a29e94120eb73f0800000000000000
+      internalID: -901880866779092480
       vertices: []
       indices: 
       edges: []
@@ -300,7 +344,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b81b53c9eb4914af68781981a1568cb9
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +352,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":26.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Torch_0: -8553596595128423742
-      Torch_1: 330400763883709057
-      Torch_2: 6950709768184568528
-      Torch_3: 837017221450738011
-      Torch_4: 9103131428984308761
-      Torch_5: -6545210212983845557
-      Torch_6: 2483307524810053647
-      Torch_7: 2428121689872686496
+      knight_attack_right_0: -6306405852585241042
+      knight_attack_right_1: -2463365341317934655
+      knight_attack_right_2: 8843755137971233844
+      knight_attack_right_3: -8451745791826609099
+      knight_attack_right_4: -7010060384778525911
+      knight_attack_right_5: 8817194364517077656
+      knight_attack_right_6: 7774900649196160909
+      knight_attack_right_7: 565517819077744176
+      knight_attack_right_8: -901880866779092480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

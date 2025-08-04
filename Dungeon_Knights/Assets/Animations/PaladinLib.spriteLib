@@ -107,6 +107,42 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: -1444558762566344471, guid: 56c43128f4d611d49ab36fed003d05ff, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 4
+  - m_Name: Attack_East
+    m_Hash: 644220718
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: attack_east_0
+      m_Hash: 999446498
+      m_Sprite: {fileID: -8016064264905708537, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8016064264905708537, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    - m_Name: attack_east_1
+      m_Hash: 211117940
+      m_Sprite: {fileID: 1722147120988477180, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1722147120988477180, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    - m_Name: attack_east_2
+      m_Hash: 362559182
+      m_Sprite: {fileID: -4403843298721952833, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4403843298721952833, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    - m_Name: attack_east_3
+      m_Hash: 580585048
+      m_Sprite: {fileID: 811608454687040809, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 811608454687040809, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    - m_Name: attack_east_4
+      m_Hash: 1023382523
+      m_Sprite: {fileID: -793092671519274615, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -793092671519274615, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    - m_Name: attack_east_5
+      m_Hash: 200844141
+      m_Sprite: {fileID: 2410417842024035257, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2410417842024035257, guid: 2e0192b11f48846a68dc6494b131445d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638889049100620394
+  m_ModificationHash: 638898532349594630
   m_Version: 1
