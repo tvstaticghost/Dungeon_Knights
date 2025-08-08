@@ -8,5 +8,10 @@ public class PlayerHurtBox : MonoBehaviour
         {
             Debug.Log("Player Hurt");
         }
+        else if (collision.CompareTag("Arrow"))
+        {
+            Debug.Log("Arrow Hit Player");
+            Destroy(collision.gameObject);
+        }
     }
 }

@@ -41,6 +41,12 @@ public class Player : MonoBehaviour
             currentDirection = Direction.UP;
             rb.linearVelocity = val * movementSpeed;
         }
+        else if (val.y == -1.0)
+        {
+            walking = true;
+            currentDirection = Direction.DOWN;
+            rb.linearVelocity = val * movementSpeed;
+        }
         else
         {
             walking = false;
